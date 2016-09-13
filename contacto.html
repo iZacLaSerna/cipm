@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Centro de Imagenes y Procedimientos Medicos</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+	<div class="ContainerHeader">
+		<section class="CipmHero u-wrapper">
+			<header class="CipmHero-header ">
+				
+				<figure class="CipmHero-container">
+					<a href="index.html"><img src="img/logo-header.png" alt="logotipo"></a>
+				</figure>
+				<div class="CipmHero-rightContent">
+					<nav id="menu" class="CipmHero-navbar ">
+
+						<a class="CipmHero-navbar-item " href="index.html">Inicio</a>
+						
+						<a class="CipmHero-navbar-item " href="index.html#CipmNote">Pacientes</a>
+						
+						<a class="CipmHero-navbar-item " href="index.html#tomo">Tomografias</a>
+					
+						<a class="CipmHero-navbar-item " href="contacto.html">Contacto</a>
+										
+					</nav>
+					<div class="CipmHero-phone ">
+						<div class="icon-phone">
+						</div>
+						<p class="CipmHero-phone-number   ">(074) 22 3232</p>
+					</div>
+					<div id="burger-button" class="CipmHero-menu">
+						<div class="CipmHero-menu-icon">
+							<div class="CipmHero-menu-icon-bar"></div>
+							<div class="CipmHero-menu-icon-bar"></div>
+							<div class="CipmHero-menu-icon-bar"></div>
+							
+						</div>
+					</div>
+				</div>
+			</header>
+		</section>
+				
+	</div>
+	<div class="CipmConMain">
+		<section class="CipmConMain-container u-wrapper">
+			<h1>Contacto</h1>
+			<p>(*) Estos campos son obligatorios</p>
+			<p>Recuerde, puede encontrarnos en el Hospital de la Solidaridad - Chiclayo en el Consultorio N° 41</p>
+
+			<form class="CipmConMain-container-formulario" action="" method="post">
+				<label for="nombre">Nombres:</label>	
+				<input type="text" id="nombre" name="nombre" required class="CipmConMain-container-formulario-campos">
+
+				<label for="apellido">Apellidos:</label>	
+				<input type="text" id="apellido" name="apellido" required class="CipmConMain-container-formulario-campos">
+
+				<label for="edad">Edad:</label>	
+				<input type="number" id="edad" name="edad" required class="CipmConMain-container-formulario-campos">
+
+				<label for="email">Correo electronico:</label>	
+				<input type="email" id="email" name="email" required class="CipmConMain-container-formulario-campos">
+
+				<label for="direccion">Dirección:</label>	
+				<input type="text" id="direccion" name="direccion" required class="CipmConMain-container-formulario-campos">
+
+				<label for="telefono">Teléfono / celular:</label>	
+				<input type="tel" id="telefono" name="telefono" required class="CipmConMain-container-formulario-campos">
+				
+				<label for="comentarios">* Comentarios</label>
+				<textarea required  name="comentarios" id="comentarios" cols="30" rows="10">Ingrese su comentario</textarea>
+				<input type="submit" value="Enviar" class=" boton">
+				<!-- <div class="CipmConMain-boton">
+				</div> -->
+			</form>
+		</section>
+	</div>
+
+
+
+	<footer class="CipmFooter">
+		<div class="CipmFooter-container u-wrapper">
+			<div class="CipmFooter-addres">
+				<div class="CipmFooter-addres-logoPie">
+					<a href="index.html"><img src="img/logo-footer.png" alt="logo-footer" class="CipmFooter-addres-img"></a>
+				</div>
+				<div class="CipmFooter-addres-tex">
+					<p>Av. Salaverry Cdra. 8 </p>
+					<p>Chiclayo </p>
+					<p>Telf. (074) 555-5555 </p>
+					<p>Cel. 999-999-999 </p>
+				</div>
+			</div>
+			<div class="CipmFooter-social">
+				<h3 class="CipmFooter-social-title">Encuentranos en:</h3>
+				<a href="" class="CipmFooter-social-item"><span class="icon-facebook"></span>/CentrodeImagenes</a>
+				<a href="" class="CipmFooter-social-item"><span class="icon-twitter"></span>@CentrodeImagenes</a>
+				<a href="" class="CipmFooter-social-item"><span class="icon-youtube2"></span>@CentrodeImagenes</a>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<!-- <script>
+		var consulta = window.matchMedia('(max-width: 730px)');
+		consulta.addListener(mediaQuery);
+
+		var $burgerButton = document.getElementById('burger-button');
+		var $menu = document.getElementById('menu');
+
+		function toggleMenu(){
+			$menu.classList.toggle('active');
+		};
+
+		function hideMenu(){
+			$menu.classList.add('active');
+
+		};
+
+		function showMenu(){
+			$menu.classList.remove('active');
+		};
+
+		function mediaQuery(){
+			if (consulta.matches){
+
+				console.log('se cumplio la condicion');
+
+				$burgerButton.addEventListener('touchstart', toggleMenu);
+			}else{
+
+				$burgerButton.removeEventListener('touchstart', toggleMenu);
+				console.log('no se cumplio la condicion');
+			}
+		}
+
+			// mediaQuery();
+
+			// var blazy = new Blazy({
+			// 	selector:'img'
+			// });
+
+		var $body = document.body;
+
+		var gestos = new Hammer($body);
+		gestos.on('swipeleft', hideMenu);
+		gestos.on('swiperight', showMenu);
+	</script> -->
+
+</body>
+</html>
