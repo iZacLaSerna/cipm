@@ -88,7 +88,7 @@
   font-size: 2em;
   text-align: center;
   padding: 22px  0 15px 0;
-  border-radius: 9px 9px 0px 0px;  
+  border-radius: 9px 9px 0px 0px;
 }
 
 .u-wrapper{
@@ -753,113 +753,6 @@ body{
   background-color:#d1422f;
 }
 
-@media (max-width:525px) {
-
-  .icon-checkbox-checked:before {
-    left: 8px;
-  }
-
-  .CipmHero-phone {
-    display: none;
-  }
-
-  .CipmHero-copy-container-titulo {
-    font-size: 1.3em;
-  }
-
-  .CipmHero-copy-img {
-    width: auto;
-    max-width: 525px;
-  }
-
-  .CipmAd-container-date-day {
-    font-size: 27px;
-  }
-
-  .CipmAd-container-date-day2 {
-    font-size: 16px;
-  }
-
-  .CipmAd-container-right {
-    width: 65%;
-  }
-
-  .CipmAd-container-title-gen {
-    font-size: 22px;
-  }
-
-  .CipmAd-container-title-par {
-    font-size: 17px;
-  }
-
-  .CipmAd-container-place-lugar {
-    font-size: 18px;
-  }
-
-  .CipmNote-title {
-    width: 100%;
-    font-size: 1.9em;
-    padding: 0 .7em 1.3em .7em;
-  }
-
-  .CipmNote-list-item {
-    padding: 0 .5em 0 3.5em;
-  }
-
-  .CipmNote-list p {
-    left: 9px;
-  }
-
-  .CipmFooter-container {
-    flex-flow: column nowrap;
-    text-align: center;
-    height: 100%;
-  }
-
-  .CipmFooter-addres {
-    display: block;
-  }
-
-  .CipmFooter-addres-logoPie {
-    margin: 4em  0 2em 0;
-  }
-
-  .CipmFooter-addres-tex {
-    border-left: none;
-    margin-top: 4em;
-  }
-
-  .CipmFooter-social {
-    margin: 4em 0;
-  }
-
-  .CipmFooter-social-item {
-    margin-left: 32px;
-    margin-top: 2.2em;
-  }
-
-  .CipmConMain-container-formulario {
-    -webkit-box-align: start;
-    align-items: flex-start;
-    margin: 2em 1em 0 1em;
-  }
-
-  .CipmConMain-container-formulario label {
-    margin-left: 1%;
-  }
-
-  .CipmConMain-container-formulario-campos {
-    width: 100%;
-  }
-
-  .CipmConMain-container-formulario textarea {
-    width: 100%;
-  }
-
-  .boton {
-    align-self: center;
-  }
-}
 
 @media (max-width:800px) {
 
@@ -979,13 +872,6 @@ body{
     font-size: 1.5em;
   }
 
-  @media (max-width:525px) {
-
-    .CipmHero-copy-container-titulo {
-      font-size: 1.3em;
-    }
-  }
-
   .CipmHero-copy-buttom {
     width: 100%;
   }
@@ -1001,14 +887,7 @@ body{
     align-items: flex-start;
   }
 
-  @media (max-width:525px) {
-
-    .CipmAd-container-right {
-      width: 65%;
-    }
-  }
-
-  .CipmAd-container-place {
+    .CipmAd-container-place {
     margin-top: 1em;
   }
 
@@ -1033,35 +912,125 @@ body{
     margin-left: 10%;
   }
 
-  @media (max-width:525px) {
-
-    .CipmConMain-container-formulario label {
-      margin-left: 1%;
-    }
-  }
-
   .CipmConMain-container-formulario-campos {
     width: 80%;
-  }
-
-  @media (max-width:525px) {
-
-    .CipmConMain-container-formulario-campos {
-      width: 100%;
-    }
   }
 
   .CipmConMain-container-formulario textarea {
     width: 80%;
   }
 
-  @media (max-width:525px) {
+}
 
-    .CipmConMain-container-formulario textarea {
-      width: 100%;
-    }
+
+@media (max-width:525px) {
+
+  .icon-checkbox-checked:before {
+    left: 8px;
+  }
+
+  .CipmHero-phone {
+    display: none;
+  }
+
+  .CipmHero-copy-container-titulo {
+    font-size: 1.3em;
+  }
+
+  .CipmHero-copy-img {
+    width: auto;
+    max-width: 525px;
+  }
+
+  .CipmAd-container-date-day {
+    font-size: 27px;
+  }
+
+  .CipmAd-container-date-day2 {
+    font-size: 16px;
+  }
+
+  .CipmAd-container-right {
+    width: 65%;
+  }
+
+  .CipmAd-container-title-gen {
+    font-size: 22px;
+  }
+
+  .CipmAd-container-title-par {
+    font-size: 17px;
+  }
+
+  .CipmAd-container-place-lugar {
+    font-size: 18px;
+  }
+
+  .CipmNote-title {
+    width: 100%;
+    font-size: 1.9em;
+    padding: 0 .7em 1.3em .7em;
+  }
+
+  .CipmNote-list-item {
+    padding: 0 .5em 0 3.5em;
+  }
+
+  .CipmNote-list p {
+    left: 9px;
+  }
+
+  .CipmFooter-container {
+    flex-flow: column nowrap;
+    text-align: center;
+    height: 100%;
+  }
+
+  .CipmFooter-addres {
+    display: block;
+  }
+
+  .CipmFooter-addres-logoPie {
+    margin: 4em  0 2em 0;
+  }
+
+  .CipmFooter-addres-tex {
+    border-left: none;
+    margin-top: 4em;
+  }
+
+  .CipmFooter-social {
+    margin: 4em 0;
+  }
+
+  .CipmFooter-social-item {
+    margin-left: 32px;
+    margin-top: 2.2em;
+  }
+
+  .CipmConMain-container-formulario {
+    -webkit-box-align: start;
+    align-items: flex-start;
+    margin: 2em 1em 0 1em;
+  }
+
+  .CipmConMain-container-formulario label {
+    margin-left: 1%;
+  }
+
+  .CipmConMain-container-formulario-campos {
+    width: 100%;
+  }
+
+  .CipmConMain-container-formulario textarea {
+    width: 100%;
+  }
+
+  .boton {
+    align-self: center;
   }
 }
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
 
